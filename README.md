@@ -1,26 +1,7 @@
-# Starter Algo
+# Citadel Correlation1 Algorithm
 
-## File Overview
-
-```
-starter-algo
- │
- ├──gamelib
- │   ├──__init__.py
- │   ├──advanced_game_state.py
- │   ├──algocore.py
- │   ├──game_map.py
- │   ├──game_state.py
- │   ├──navigation.py
- │   ├──tests.py
- │   ├──unit.py
- │   └──util.py
- │ 
- ├──algo_strategy.py
- ├──README.md
- ├──run.ps1
- └──run.sh
-```
+This was for a coding challenge for citadel's correlation one competition.<br/>
+Players create an algorithimic strategy and play against AI 'bosses' and eachother.
 
 ### Creating an Algo
 
@@ -63,13 +44,13 @@ This module contains the `AdvancedGameState` class. This file is a version of ga
 ### `gamelib/algocore.py`
 
 This file contains code that handles the communication between your algo and the
-core game logic module. You shouldn't need to change this directly. Feel free to 
-just overwrite the core methods that you would like to behave differently. 
+core game logic module. You shouldn't need to change this directly. Feel free to
+just overwrite the core methods that you would like to behave differently.
 
 ### `gamelib/game_map.py`
 
 This module contains the `GameMap` class which is used to parse the game state
-and provide functions for querying it. 
+and provide functions for querying it.
 
 ### `gamelib/navigation.py`
 
@@ -93,6 +74,6 @@ Helper functions and values that do not yet have a better place to live.
 ## Strategy Overview
 
 The starter strategy is designed to highlight a few common `GameMap` functions
-and give the user a functioning example to work with. It's gameplan is to 
+and give the user a functioning example to work with. It's gameplan is to
 draw the C1 logo, place destructors in its corners, and randomly spawn encryptors
 and units.
